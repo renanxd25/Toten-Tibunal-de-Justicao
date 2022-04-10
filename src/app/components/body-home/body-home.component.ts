@@ -14,6 +14,9 @@ export class BodyHomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  public comunicacao(){
+    window.alert("Hello world!");
+  }
 
 
  
