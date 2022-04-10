@@ -21,7 +21,6 @@ svg {
     width: 32px;
     height: 32px;
     padding: 5px;
-    color: white;
 }
 
 #whatsapp {
@@ -29,4 +28,14 @@ svg {
     flex-direction: column;
     align-items: center;
     display: flex;
+}
+
+a {
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #00a884;
+    margin: 25px;
+    border-radius: 25px;
 }
