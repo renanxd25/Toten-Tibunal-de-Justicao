@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { InicioComponent } from '../inicio/inicio.component';
 
 
 @Component({
@@ -10,13 +12,14 @@ export class BodyHomeComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor(private dialogRef: MatDialog) { }
 
   ngOnInit(): void {
   }
-  public comunicacao(){
-    window.alert("Hello world!");
+  openModal() {
+     this.dialogRef.open(InicioComponent);
   }
+ 
 
 
  

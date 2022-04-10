@@ -10,6 +10,11 @@ import { HeaderHomeComponent } from './components/header-home/header-home.compon
 import { FooterHomeComponent } from './components/footer-home/footer-home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {MatDialogModule} from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+
 
 
 @NgModule({
@@ -19,14 +24,18 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     BodyHomeComponent,
     HeaderHomeComponent,
-    FooterHomeComponent,
-   
+    FooterHomeComponent
    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatDialogModule,
+    BrowserAnimationsModule
+  ],
+  exports: [
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

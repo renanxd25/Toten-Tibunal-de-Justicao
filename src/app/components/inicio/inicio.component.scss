@@ -1,0 +1,32 @@
+div {
+    padding: 10px;
+}
+
+button {
+    margin: 25px;
+    width: 15%;
+    border-radius: 5%;
+    background-color: #00a884;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+svg {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    color: white;
+}
+
+#whatsapp {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
